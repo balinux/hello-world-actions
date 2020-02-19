@@ -8,7 +8,7 @@ jobs:
     - uses: actions/checkout@master
     - name: Create local changes
       run: |
-        'echo "# Hello From World" > README.md'
+        'echo '# Hello From World' > README.md'
     - name: Commit files
       run: |
         git config --local user.email "action@github.com"
